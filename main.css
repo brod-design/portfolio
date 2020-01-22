@@ -1,0 +1,485 @@
+@font-face {
+    font-family: 'aileronregular';
+    src: url('fonts/aileron-fontfacekit/aileron_regular_macroman/Aileron-Regular-webfont.eot');
+    src: url('fonts/aileron-fontfacekit/aileron_regular_macroman/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-fontfacekit/aileron_regular_macroman/Aileron-Regular-webfont.woff2') format('woff2'),
+         url('fonts/aileron-fontfacekit/aileron_regular_macroman/Aileron-Regular-webfont.woff') format('woff'),
+         url('fonts/aileron-fontfacekit/aileron_regular_macroman/Aileron-Regular-webfont.ttf') format('truetype'),
+         url('fonts/aileron-fontfacekit/aileron_regular_macroman/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronitalic';
+    src: url('fonts/aileron-fontfacekit/aileron_italic_macroman/Aileron-Italic-webfont.eot');
+    src: url('fonts/aileron-fontfacekit/aileron_italic_macroman/Aileron-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-fontfacekit/aileron_italic_macroman/Aileron-Italic-webfont.woff2') format('woff2'),
+         url('fonts/aileron-fontfacekit/aileron_italic_macroman/Aileron-Italic-webfont.woff') format('woff'),
+         url('fonts/aileron-fontfacekit/aileron_italic_macroman/Aileron-Italic-webfont.ttf') format('truetype'),
+         url('fonts/aileron-fontfacekit/aileron_italic_macroman/Aileron-Italic-webfont.svg#aileronitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronthin';
+    src: url('fonts/aileron-fontfacekit/aileron_thin_macroman/Aileron-Thin-webfont.eot');
+    src: url('fonts/aileron-fontfacekit/aileron_thin_macroman/Aileron-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-fontfacekit/aileron_thin_macroman/Aileron-Thin-webfont.woff2') format('woff2'),
+         url('fonts/aileron-fontfacekit/aileron_thin_macroman/Aileron-Thin-webfont.woff') format('woff'),  
+         url('fonts/aileron-fontfacekit/aileron_thin_macroman/Aileron-Thin-webfont.ttf') format('truetype'),
+         url('fonts/aileron-fontfacekit/aileron_thin_macroman/Aileron-Thin-webfont.svg#aileronthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronthin_italic';
+    src: url('fonts/aileron-fontfacekit/aileron_thinitalic_macroman/Aileron-ThinItalic-webfont.eot');
+    src: url('fonts/aileron-fontfacekit/aileron_thinitalic_macroman/Aileron-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-fontfacekit/aileron_thinitalic_macroman/Aileron-ThinItalic-webfont.woff2') format('woff2'),
+         url('fonts/aileron-fontfacekit/aileron_thinitalic_macroman/Aileron-ThinItalic-webfont.woff') format('woff'), 
+         url('fonts/aileron-fontfacekit/aileron_thinitalic_macroman/Aileron-ThinItalic-webfont.ttf') format('truetype'),
+         url('fonts/aileron-fontfacekit/aileron_thinitalic_macroman/Aileron-ThinItalic-webfont.svg#aileronthin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronbold';
+    src: url('fonts/aileron-fontfacekit/aileron_bold_macroman/Aileron-Bold-webfont.eot');
+    src: url('fonts/aileron-fontfacekit/aileron_bold_macroman/Aileron-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-fontfacekit/aileron_bold_macroman/Aileron-Bold-webfont.woff2') format('woff2'),
+         url('fonts/aileron-fontfacekit/aileron_bold_macroman/Aileron-Bold-webfont.woff') format('woff'),
+         url('fonts/aileron-fontfacekit/aileron_bold_macroman/Aileron-Bold-webfont.ttf') format('truetype'),
+         url('fonts/aileron-fontfacekit/aileron_bold_macroman/Aileron-Bold-webfont.svg#aileronbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronbold_italic';
+    src: url('fonts/aileron-fontfacekit/aileron_bolditalic_macroman/Aileron-BoldItalic-webfont.eot');
+    src: url('fonts/aileron-fontfacekit/aileron_bolditalic_macroman/Aileron-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-fontfacekit/aileron_bolditalic_macroman/Aileron-BoldItalic-webfont.woff2') format('woff2'),
+         url('fonts/aileron-fontfacekit/aileron_bolditalic_macroman/Aileron-BoldItalic-webfont.woff') format('woff'),
+         url('fonts/aileron-fontfacekit/aileron_bolditalic_macroman/Aileron-BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/aileron-fontfacekit/aileron_bolditalic_macroman/Aileron-BoldItalic-webfont.svg#aileronbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Charisregular';
+  src: url(fonts/CharisSIL-5.000-web/web/CharisSIL-R.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Charis';
+  font-style: italic;
+  src: url(fonts/CharisSIL-5.000-web/web/CharisSIL-I.woff);
+}
+@font-face {
+    font-family: 'Charis';
+    font-weight: bold;
+    src: url(fonts/CharisSIL-5.000-web/web/CharisSIL-B.woff);
+}
+@font-face {
+    font-family: 'Charis';
+    font-weight: bold;
+    font-style: italic;
+    src: url(fonts/CharisSIL-5.000-web/web/CharisSIL-BI.woff);
+}
+/*----end-fonts-source----*/
+/*----basic-fonts-settings----*/
+h1, h2, h3, p, a{
+    margin: 0;
+    color: #fafafa;
+    font-weight: normal;
+        transition: 500ms ease-in-out;
+}
+h1{
+    font-size: 21px;
+    font-family: aileronthin;
+    line-height: 19.81pt;
+
+}
+h2{
+    font-size: 16px;
+    font-family: aileronthin;
+    line-height: 17.01pt;
+}
+p{
+    font-size: 12px;
+    font-family: aileronregular;
+    line-height: 14.17pt;
+}
+      /*----for-a-balise----*/
+      .image-caption,
+      .image-caption a, a{
+          font-size: 21px;
+          font-family: aileronthin;
+          line-height: 19.81pt;
+      }
+      a{
+          text-decoration: none;
+      }
+      a:hover {
+          text-decoration: none;
+          transition-duration: 0s;
+          box-shadow: inset 0px -2px; 
+      }
+/*---gif-&-img----*/
+img{
+    margin: 0;
+}
+
+.eye{
+    height: 16px;
+    position: relative;
+    top: 1px;
+}
+  @media screen and (max-width: 540px){   
+        h1{
+            font-size: 12px;
+            font-family: aileronthin;
+            line-height: 14.17pt;
+        }
+        .image-caption,
+        .image-caption a, .page1 a, a{
+            font-size: 12px;
+            font-family: aileronthin;
+            line-height: 14.17pt;
+        }
+        h2{
+            font-size: 12px;
+            font-family: aileronthin;
+            line-height: 14.17pt;
+        }
+        p{
+            font-size: 9px;
+            font-family: aileronregular;
+            line-height: 11.34pt;
+        }
+        .eye{
+            height: 12px;
+            position: relative;
+            top: 1px;
+        }
+        a:hover {
+          text-decoration: none;
+          transition-duration: 0s;
+          box-shadow: inset 0px -1.5pt; 
+      	}
+    }
+    /*----special-settings-fonts-page1----*/
+		.page1 em{
+      font-family: aileronitalic;
+      font-weight: normal;
+      font-style: normal;
+    }
+    .page1 h1,
+		.page1 h2,
+    .page1 h3,
+		.page1 p,
+		.page1 a{
+		    margin: 0;
+		    color: #1f2125;
+		    font-weight: normal;
+		    font-family: aileronregular;
+		}
+    .page1 h3{
+      font-size: 9pt;
+      font-family: aileronbold;
+    }
+    .page1 .titre h1,
+    .page1 .case p{
+        margin: 0;
+        font-weight: normal;
+        font-family: Charisregular;
+    }
+    .page1 .case p{
+        margin: 0;
+        font-weight: normal;
+        font-family: Charisregular;
+        line-height: 13pt;
+    }
+
+      @media screen and (max-width: 540px){
+        .page1 .titre h1,
+        .page1 .case h1,
+        .page1 .case a{
+          margin: 0;
+          font-size: 16px;
+        }
+        .page1 .case p{
+          line-height: 11pt;
+        }
+      }
+	/*----end-settings-fonts-page1----*/
+/*----end-fonts-settings----*/
+/*----general-block-settings----*/
+html body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+ html .page1{
+ 	display: flex;
+ 	justify-content: center;
+ 	background-color: #f0f5f5;
+ }
+/*----header-settings----*/
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+        margin: 0;
+        padding: 20px 24px 24px 24px;
+        width: calc(100% - 48px);
+        height: 79.25px;
+        left: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    z-index: 100;
+        transition-duration: 500ms;
+}
+   @media screen and (max-width: 540px){
+        header{
+            height: 56.7px;
+            min-width: 100px;
+        }
+   }
+header div{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    min-width: 50px;
+}
+header div:nth-child(1){
+}
+header div:nth-child(2){
+    text-align: right;
+}
+/*----end-header-settings----*/
+/*----end-general-block-settings----*/
+/*----index-body-settings----*/
+/*----check-OwlCarousel2-2.3.4/dist/assets/owl.carousel.css-for-carousel----*/
+
+.row1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 127.25px;
+    width: 100%;
+    height: 65vh;
+}
+.row2{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: calc(100% - 48px);
+    top: 0;
+    height: 100%;
+    margin: 0px 24px 0px 24px;
+    z-index: 1;
+}
+    @media screen and (max-width: 540px){
+            .row1{
+                top: 100.7px;
+                height: auto
+            }
+    }
+/*---settings-page-2----*/
+.row1-bis{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+    top: 123.25px;
+    width: 100%;
+    height: calc((100% - 123.25px) - (105.667px + 48px));
+  overflow-y: scroll;
+  z-index: 2;
+}
+  .item-row1-bis{
+    display: block;
+    width: calc((100% / 3) - 48px);
+    min-width: 468px;
+    height: auto;
+    margin: 24px;
+  }
+
+    .item-row1-bis img{
+      display: inline-block;
+      width: 100%;
+      margin: 0;
+    }
+
+    .item-row1-bis a:hover {
+      box-shadow: none;
+    }
+
+    @media screen and (max-width: 1500px){
+      .item-row1-bis{
+        width: calc((100% / 2) - 48px);
+        min-width: 100px;
+        height: auto;
+      }
+    }
+      @media screen and (max-width: 540px){
+        .item-row1-bis{
+          width: calc(100% - 48px);
+          min-width: 100px;
+          height: auto;
+        }
+        .row1-bis{
+          top: 100.7px;
+        }
+      }
+/*----------------------*/
+.colomn1, .colomn2{
+  margin: 0 0 24px 0;
+}
+.colomn2{
+	text-align: right;
+	width: 60%;
+}
+.colomn1{
+	text-align: left;
+	width: 40%;
+}
+/*----settings-page-1----*/
+.tableau{
+  display: flex;
+  position: absolute;
+  flex-flow: wrap;
+  top: 123.25px;
+  width: calc(100% - 40px);
+  max-width:  1000px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-right: 20px;
+    height: auto;
+    border: 1px solid #1f2125;
+}
+    @media screen and (max-width: 540px){
+            .tableau{
+                top: 100.7px;
+                margin-top: 0px;
+                border: 1px solid #1f2125;
+            }
+    }
+    /*---FOR CHROME----*/
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @media screen and (max-width: 1000px){
+          .tableau{
+            left: 0;
+          }
+      }
+    }
+    /*----font-setting-tableau----*/
+    .titre{
+      display: block;
+      width: 100%;
+      height: calc(12pt + 11px);
+      margin: 0;
+      padding: 4px;
+      border-bottom: 2px solid #1f2125;
+    }
+    .case{
+      display: block;
+      width: 324px;
+      padding: 4px;
+      margin: 4px 0 0 0;
+          transition: 1s;
+    }
+      @media screen and (max-width: 540px){
+              .titre{
+                  height: calc(9pt + 7px);
+                  border-bottom: 2px solid #1f2125;
+              }
+              .case{
+		              width: 252px;
+			  }
+      }
+    /*----end-font-setting-tableau----*/
+  /*----flex-setting----*/
+  .tableau .experiences{
+    width: 100%;
+  }
+    .tableau .experiences .case{
+    }
+   /*-flex-formation-geré-par-formation-les autres sont gerer par le groupe en bas*/
+  .tableau .formation{
+    width: 32.9%;
+    display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      border: 1px solid #1f2125;
+  }
+      @media screen and (max-width: 1000px){
+        .tableau .formation{
+          width: 100%;
+          order: 3;
+        }
+	  }
+    .tableau .formation .case{
+      height: auto;
+    }
+  .tableau .competences{
+    flex: 3;
+  }
+    .tableau .competences .case{
+      
+    }
+  .tableau .informations{
+  	width: 100%;
+  	order: 4;
+  }
+	}
+	.tableau .informations .case{
+	  	flex: 1;
+	  	max-width: 324px;
+	}
+      /*---group-setting----*/
+      /*.tableau .formation,*/
+      .tableau .experiences,      
+      .tableau .competences,
+      .tableau .informations{
+        display: flex;
+        flex-flow: wrap;
+        align-items: stretch;
+        justify-content: flex-start;
+        border: 1px solid #1f2125;
+      }
+        @media screen and (max-width: 540px){
+                .tableau .experiences,
+                .tableau .formation,
+                .tableau .competences{
+                    border: 1px solid #1f2125;
+                }
+        }
+      /*---end-group-setting----*/
+  /*----end-flex-setting----*/
+/*----end-settings-page-1----*/
+/*----PAGE-PROJET-settings----*/
+/*----end-index-body-settings----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
